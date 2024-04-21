@@ -1,5 +1,6 @@
 # DSC-x-CBRE-Datathon-2024
 Github for DSC x CBRE Datathon 2024 @ NYU
+Created by: Yui Cao, Tony Yu, Tiffany He, Cindy Gao
 
 ## Motivation
 Within rapid development of E-Commerce during pandemic, timely construction of industrial warehouses is essential. 
