@@ -4,13 +4,15 @@ Created by: Yui Cao, Tony Yu, Tiffany He, Cindy Gao
 
 ## Motivation
 Within rapid development of E-Commerce during pandemic, timely construction of industrial warehouses is essential. 
-A precise model for estimating construction time ensures efficient planning and resource allocation, vital for meeting the demands of rapidly growing online retail. 
-With accurate projections, businesses can strategize their supply chain management effectively, optimizing delivery schedules and customer satisfaction. 
-Additionally, timely completion of warehouses facilitates economic growth by attracting investments and fostering job creation in the region.
+A precise model for estimating construction time ensures efficient planning and resource allocation, vital for meeting the demands of rapidly growing online retail. With accurate projections, businesses can strategize their supply chain management effectively, optimizing delivery schedules and customer satisfaction. 
+Developing a precise and efficient model for predicting construction completion and recognizing features from satellite images can help firms monitor their construction projects, enhance project management, and provide a more reliable forecast of supply for both businesses and the real estate industry. Firms will have more current information about their construction progress through updated satellite imageries.
 
 ## Approach
 
-For this challenge, we have developed 2 Convolutional Neural Networks (CNN) to classify and predict the construction status for buildings in indicated coordinates and addresses:
+We divided our approach into 2 parts for this Datathon: 
+
+1. Developing CNN models for image classification
+2. Providing updated estimates of completion dates for construction projects based on the classification of satellite imageries, labeled by our developed CNN models
 
 **1. Pretrained VGG16 model**
 We used a pretrained VGG16 model from pytorch and finetuned the fully connected layers to generalize for our challenge specifically - classification of construction status between 1-5. VGG16 model has been proven to be one of the most efficient model for general image classification with its depth and computational efficiency.
